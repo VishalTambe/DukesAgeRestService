@@ -55,6 +55,11 @@
 						<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.jboss.as.plugins</groupId>
+					<artifactId>jboss-as-maven-plugin</artifactId>
+					<version>7.1.1.Final</version>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
